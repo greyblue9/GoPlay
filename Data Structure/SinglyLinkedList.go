@@ -99,9 +99,7 @@ func lookupNode(t *Node, v int) bool {
 
 func addNodeAtAny(t *Node, pos, v int) {
 	if t == nil {
-		fmt.Println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
 		fmt.Println("Emty List")
-		fmt.Println("you can't traverse through an empty List")
 	}
 
 	abs := 1
