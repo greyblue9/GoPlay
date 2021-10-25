@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+// Implemented DoublyLinkedList DS in Golang
+
 type DNode struct {
 	prev *DNode
 	Data interface{}
